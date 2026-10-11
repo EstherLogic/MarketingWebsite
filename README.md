@@ -32,7 +32,8 @@ A visual gallery featuring image cards, captions, and a “Discover something ne
 **Screenshot:**  
 Add a screenshot of the page at `screenshots/images.png`.
 
-MarketingWebsite/screenshots/2.png
+![Images page screenshot](screenshots/2.png)
+
 ### 🤖 Agent — Meet the assistant
 A split layout with an introduction on the left and a blue visual panel with a floating information card on the right.
 
