@@ -1,0 +1,176 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    color: #171717;
+    background: white;
+}
+
+.top {
+    position: relative;
+    height: 75px;
+    padding: 25px 30px;
+}
+
+.logo {
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.logo span {
+    margin-right: 5px;
+}
+
+.menu {
+    position: absolute;
+    left: 50%;
+    top: 29px;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.menu a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0 12px;
+}
+
+.buttons {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-size: 12px;
+}
+
+.buttons a {
+    text-decoration: none;
+    margin-left: 12px;
+}
+
+.login {
+    color: #222222;
+}
+
+.signup {
+    background: #171717;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+.main {
+    width: 1000px;
+    max-width: 90%;
+    margin: 110px auto 0;
+    position: relative;
+    min-height: 430px;
+}
+
+/* טקסט בצד שמאל */
+.text {
+    display: inline-block;
+    width: 42%;
+    vertical-align: middle;
+    padding-right: 30px;
+}
+
+.text h1 {
+    font-size: 42px;
+    line-height: 1.15;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.text p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #555555;
+}
+
+.text .small {
+    font-size: 12px;
+    color: #777777;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+
+.try {
+    display: inline-block;
+    background: #171717;
+    color: white;
+    text-decoration: none;
+    padding: 13px 23px;
+    border-radius: 25px;
+    font-size: 13px;
+}
+
+/*אזור כחול בצד ימין */
+.blue {
+    display: inline-block;
+    vertical-align: middle;
+    width: 56%;
+    height: 390px;
+    border-radius: 25px;
+    background: linear-gradient(
+        135deg,
+        #b7d9ff,
+        #5799e8,
+        #2456b5
+    );
+    position: relative;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    padding: 28px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.light {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-size: 13px;
+    line-height: 1.7;
+    color: #666666;
+}
+.menu {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.menu a {
+    display: inline-block;
+    margin: 0 18px;
+    color: #222;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.menu a:hover {
+    color: #666;
+}

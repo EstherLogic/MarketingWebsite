@@ -1,0 +1,177 @@
+
+/* עיצוב כללי */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+    color: #171717;
+    border: 1px solid #eeeeee;
+    min-height: 100vh;
+}
+
+/* החלק העליון */
+.top {
+    position: relative;
+    height: 70px;
+    padding: 0 28px;
+}
+
+/* הלוגו */
+.logo {
+    position: absolute;
+    left: 28px;
+    top: 24px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.logo span {
+    margin-right: 5px;
+}
+
+/* התפריט */
+.menu {
+    position: absolute;
+    left: 50%;
+    top: 27px;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.menu a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0 9px;
+}
+
+/* כפתורי המשתמש */
+.buttons {
+    position: absolute;
+    right: 28px;
+    top: 19px;
+    font-size: 12px;
+}
+
+.buttons a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.login {
+    color: #222222;
+}
+
+.signup {
+    background-color: #171717;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+.buttons span {
+    margin-left: 8px;
+}
+
+/* התוכן המרכזי */
+.main {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 650px;
+    max-width: 90%;
+    text-align: center;
+}
+
+/* הכותרת */
+.main h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+/* התיבה */
+.box {
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    border-radius: 28px;
+    padding: 18px;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+/* שדה הטקסט */
+.box input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 5px 0 22px;
+    background: transparent;
+}
+
+.box input::placeholder {
+    color: #777777;
+}
+
+/* אזור הכפתורים */
+.actions {
+    position: relative;
+    min-height: 36px;
+}
+
+/* כפתורים בצד שמאל */
+.left {
+    display: inline-block;
+    width: 80%;
+    vertical-align: middle;
+}
+
+.left button {
+    background: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 20px;
+    padding: 8px 10px;
+    margin: 2px;
+    font-family: inherit;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+/* כפתור הקול */
+.voice {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    background: #171717;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 13px;
+    font-family: inherit;
+    font-size: 11px;
+    cursor: pointer;
+}
+.menu {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.menu a {
+    display: inline-block;
+    margin: 0 18px;
+    color: #222;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.menu a:hover {
+    color: #666;
+}
